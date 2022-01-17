@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "rules": {
+    "quotes": [2, "single"],
+    "jsx-quotes": [2, "prefer-double"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "consistent-return": "off",
+    "react/forbid-prop-types": "off",
+    "radix": "off",
+    "no-shadow": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": 0,
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off"
+  },
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "airbnb-base",
+    "airbnb/rules/react"
+  ],
+  "plugins": [
+    "eslint-plugin-react",
+    "react-hooks"
+  ]
+}

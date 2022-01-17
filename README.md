@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with Husky install used yarn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Install dependencies.
 
-## Available Scripts
+### `yarn add eslint`
+### `yarn add -D eslint-config-prettier eslint-config-airbnb eslint-plugin-prettier prettier lint-staged husky`
 
-In the project directory, you can run:
+## Create and configure .eslintrc 
+
+``
 
 ### `npm start`
 
